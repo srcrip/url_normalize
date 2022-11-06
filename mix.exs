@@ -12,7 +12,7 @@ defmodule UrlNormalize.MixProject do
       description: @description,
       version: @version,
       package: package(),
-      elixir: "~> 1.11",
+      elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       docs: docs()
